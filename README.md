@@ -3,7 +3,7 @@
 ![Progress](https://progress-bar.xyz/129/?style=for-the-badge&scale=129&title=Core_Adversaries&width=1000&color=babaca&prefix=&suffix=/129)
 
 
-![Static Badge](https://img.shields.io/badge/Foundry_VTT-13-blue?style=for-the-badge) ![Github All Releases](https://img.shields.io/github/downloads/mordachai/art-for-daggerheart/total.svg?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/mordachai/art-for-daggerheart?display_name=release&style=for-the-badge&label=Current%20version)
+![Static Badge](https://img.shields.io/badge/Foundry_VTT-13-blue?style=for-the-badge) ![Github All Releases](https://img.shields.io/github/downloads/mordachai/art-for-daggerheart/total.svg?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/mordachai/art-for-daggerheart?display_name=tag&style=for-the-badge&label=Current%20version)
 
 ---
 
