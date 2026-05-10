@@ -9,7 +9,7 @@
 
 
 
-![Static Badge](https://img.shields.io/badge/Foundry_VTT-13-blue?style=for-the-badge) ![Github All Releases](https://img.shields.io/github/downloads/mordachai/art-for-daggerheart/total.svg?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/mordachai/art-for-daggerheart?display_name=tag&style=for-the-badge&label=Current%20version)
+![Static Badge](https://img.shields.io/badge/Foundry_VTT-14-blue?style=for-the-badge) ![Github All Releases](https://img.shields.io/github/downloads/mordachai/art-for-daggerheart/total.svg?style=for-the-badge) ![GitHub Release](https://img.shields.io/github/v/release/mordachai/art-for-daggerheart?display_name=tag&style=for-the-badge&label=Current%20version)
 
 ---
 
