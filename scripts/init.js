@@ -1,5 +1,5 @@
 /* -------------------------------------------
- * art-for-daggerheart — v13 Compendium Art integration
+ * art-for-daggerheart — v14 Compendium Art integration
  * No compendium edits; supports spaces, wildcards, circle modes, and rings.
  * Dynamic system support based on module.json configuration.
  * ------------------------------------------- */
@@ -102,12 +102,16 @@ function debugNotify(message, type = "info") { if (debugOn()) ui.notifications?.
 /* ---------------- Settings ---------------- */
 function registerSettings() {
   game.settings.register(MODULE_ID, "tokenAutoRotate", {
-    name: "Token Auto Rotate",
-    hint: "If enabled, core token auto-rotation will be turned on for this world.",
+    name: "Sync Token Auto Rotate to Core",
+    hint: "Mirror this to the core token auto-rotation setting. Toggling here updates core; otherwise the core setting is left alone.",
     scope: "world",
     config: true,
     type: Boolean,
-    default: false
+    default: false,
+    onChange: async (value) => {
+      try { await game.settings.set("core", "tokenAutoRotate", value); }
+      catch (err) { debugWarn("Could not set core.tokenAutoRotate", err); }
+    }
   });
 
   game.settings.register(MODULE_ID, "debugLogging", {
@@ -279,17 +283,13 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
 /* ---------------- Hooks: bootstrap ---------------- */
 Hooks.once("init", () => {
   registerSettings();
-  console.info(`[${MODULE_ID}] v13 Compendium Art integration initialized with dynamic system support.`);
+  console.info(`[${MODULE_ID}] v14 Compendium Art integration initialized with dynamic system support.`);
 });
 
 Hooks.once("ready", async () => {
   // Preload mapping data first
   await preloadMappingData();
-  
-  const tokenAutoRotate = game.settings.get(MODULE_ID, "tokenAutoRotate");
-  try { await game.settings.set("core", "tokenAutoRotate", tokenAutoRotate); }
-  catch (err) { debugWarn("Could not set core.tokenAutoRotate", err); }
-  
+
   // Log supported systems for debugging
   const module = game.modules.get(MODULE_ID);
   const compendiumMappings = module?.flags?.compendiumArtMappings || {};

@@ -1,9 +1,9 @@
 {
   "id": "art-for-daggerheart",
   "title": "Art for Daggerheart",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "14",
     "verified": "14"
   },
   "authors": [
