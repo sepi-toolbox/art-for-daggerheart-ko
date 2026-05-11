@@ -1,3 +1,7 @@
-/packs/art-for-dh-macros/LOCK
-/packs/art-for-dh-macros/LOG
-/packs/art-for-dh-macros/*.old
+packs/**/*.log
+packs/**/*.ldb
+packs/**/LOCK
+packs/**/MANIFEST
+packs/**/CURRENT
+packs/**/LOG
+packs/**/LOG.old
