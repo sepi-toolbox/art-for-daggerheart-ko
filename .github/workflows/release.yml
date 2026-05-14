@@ -49,7 +49,7 @@ jobs:
             packs/ \
             scripts/ \
             mappings/ \
-            token-frmaes/ \
+            token-frames/ \
             turn-marker/ \
 
 
