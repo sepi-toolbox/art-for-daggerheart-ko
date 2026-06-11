@@ -102,8 +102,8 @@ function debugNotify(message, type = "info") { if (debugOn()) ui.notifications?.
 /* ---------------- Settings ---------------- */
 function registerSettings() {
   game.settings.register(MODULE_ID, "tokenAutoRotate", {
-    name: "Sync Token Auto Rotate to Core",
-    hint: "Mirror this to the core token auto-rotation setting. Toggling here updates core; otherwise the core setting is left alone.",
+    name: "토큰 자동 회전을 코어와 동기화",
+    hint: "코어의 토큰 자동 회전 설정에 그대로 반영합니다. 여기서 켜고 끄면 코어 설정도 함께 바뀌며, 그렇지 않으면 코어 설정은 건드리지 않습니다.",
     scope: "world",
     config: true,
     type: Boolean,
@@ -115,8 +115,8 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "debugLogging", {
-    name: "Debug Logging",
-    hint: "If enabled, the module will print detailed diagnostics to the console.",
+    name: "디버그 로깅",
+    hint: "활성화하면 모듈이 상세한 진단 정보를 콘솔에 출력합니다.",
     scope: "world",
     config: true,
     type: Boolean,
@@ -124,8 +124,8 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "ringColor", {
-    name: "Token Ring Color",
-    hint: "Choose the color for token rings when ring modes are enabled.",
+    name: "토큰 링 색상",
+    hint: "링 모드가 활성화되었을 때 토큰 링의 색상을 선택합니다.",
     scope: "world",
     config: true,
     type: new foundry.data.fields.ColorField({}),
@@ -135,17 +135,17 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "tokenMode", {
-    name: "Token Mode",
-    hint: "Select token source and style.",
+    name: "토큰 모드",
+    hint: "토큰의 소스와 스타일을 선택합니다.",
     scope: "world",
     config: true,
     type: String,
     choices: {
-      [TOKEN_MODE.WILDCARDS]: "Wildcards Only",
-      [TOKEN_MODE.WILDCARDS_RINGS]: "Wildcards + Rings",
-      [TOKEN_MODE.CIRCLE]: "Circle Only",
-      [TOKEN_MODE.CIRCLE_RINGS]: "Circle + Rings",
-      [TOKEN_MODE.PORTRAIT_RINGS]: "Portrait + Rings"
+      [TOKEN_MODE.WILDCARDS]: "와일드카드만",
+      [TOKEN_MODE.WILDCARDS_RINGS]: "와일드카드 + 링",
+      [TOKEN_MODE.CIRCLE]: "원형만",
+      [TOKEN_MODE.CIRCLE_RINGS]: "원형 + 링",
+      [TOKEN_MODE.PORTRAIT_RINGS]: "초상화 + 링"
     },
     default: TOKEN_MODE.WILDCARDS_RINGS,
     requiresReload: true,
@@ -153,8 +153,8 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "tokenWidth", {
-    name: "Token Width",
-    hint: "Set the width for tokens (1.0 = normal size).",
+    name: "토큰 너비",
+    hint: "토큰의 너비를 설정합니다 (1.0 = 기본 크기).",
     scope: "world",
     config: true,
     type: Number,
@@ -164,8 +164,8 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "tokenHeight", {
-    name: "Token Height", 
-    hint: "Set the height for tokens (1.0 = normal size).",
+    name: "토큰 높이",
+    hint: "토큰의 높이를 설정합니다 (1.0 = 기본 크기).",
     scope: "world",
     config: true,
     type: Number,
@@ -175,17 +175,17 @@ function registerSettings() {
   });
 
   game.settings.register(MODULE_ID, "imageFitMode", {
-    name: "Image Fit Mode",
-    hint: "Choose how the token image should fit within the token frame.",
+    name: "이미지 맞춤 모드",
+    hint: "토큰 이미지가 토큰 프레임 안에 어떻게 맞춰질지 선택합니다.",
     scope: "world",
     config: true,
     type: String,
     choices: {
-      "fill": "Fill",
-      "contain": "Contain", 
-      "cover": "Cover",
-      "width": "Full Width",
-      "height": "Full Height"
+      "fill": "채우기",
+      "contain": "맞춰 넣기",
+      "cover": "꽉 채우기",
+      "width": "너비 전체",
+      "height": "높이 전체"
     },
     default: "contain",
     requiresReload: true,

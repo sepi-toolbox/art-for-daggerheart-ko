@@ -1,6 +1,6 @@
 {
   "id": "art-for-daggerheart",
-  "title": "Art for Daggerheart",
+  "title": "Art for Daggerheart (한국어)",
   "version": "1.1.4",
   "compatibility": {
     "minimum": "13",
@@ -37,7 +37,7 @@
   "packs": [
     {
       "name": "art-for-dh-macros",
-      "label": "Art for Dh Macros",
+      "label": "Art for Dh 매크로",
       "path": "packs/art-for-dh-macros",
       "type": "Macro",
       "ownership": {
@@ -63,8 +63,8 @@
       }
     ]
   },
-  "url": "https://github.com/mordachai/art-for-daggerheart",
-  "manifest": "https://github.com/mordachai/art-for-daggerheart/releases/latest/download/module.json",
-  "download": "https://github.com/mordachai/art-for-daggerheart/releases/latest/download/module.zip",
-  "description": "<p>Art for Daggerheart is a Foundry VTT module that drops fresh, custom-made art straight into your Daggerheart game. Enhanced with JSON mapping system for easy customization.</p>"
+  "url": "https://github.com/sepi-toolbox/art-for-daggerheart-ko",
+  "manifest": "https://raw.githubusercontent.com/sepi-toolbox/art-for-daggerheart-ko/main/module.json",
+  "download": "https://github.com/sepi-toolbox/art-for-daggerheart-ko/archive/refs/heads/main.zip",
+  "description": "<p>Art for Daggerheart는 새롭게 직접 제작한 아트를 Daggerheart 게임에 바로 추가해 주는 Foundry VTT 모듈입니다. JSON 매핑 시스템으로 손쉽게 커스터마이즈할 수 있습니다. — 한국어 번역본.</p>"
 }
