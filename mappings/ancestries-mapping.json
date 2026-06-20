@@ -1,0 +1,64 @@
+{
+  "daggerheart.ancestries": {
+    "3U8CncG92a7ERIJ0": {
+      "__DOCUMENT_NAME__": "Giant",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Giant.webp"
+    },
+    "CtL2jDjvPOJxNJKm": {
+      "__DOCUMENT_NAME__": "Halfling",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Halfling.webp"
+    },
+    "D1RbUsRV9HpTrPuF": {
+      "__DOCUMENT_NAME__": "Orc",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Orc.webp"
+    },
+    "EKPEdIz9lA9grPqH": {
+      "__DOCUMENT_NAME__": "Goblin",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Goblin.webp"
+    },
+    "HaYhe6WqoXW5EbRl": {
+      "__DOCUMENT_NAME__": "Faun",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Faun.webp"
+    },
+    "J1hX7nBBc5jQiHli": {
+      "__DOCUMENT_NAME__": "Fungril",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Fungril.webp"
+    },
+    "VLeOEqkLS0RbF0tB": {
+      "__DOCUMENT_NAME__": "Drakona",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Drakona.webp"
+    },
+    "XzJVbb5NT9k79ykR": {
+      "__DOCUMENT_NAME__": "Faerie",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Faerie.webp"
+    },
+    "ed8BoLR4SHOpeV00": {
+      "__DOCUMENT_NAME__": "Clank",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Clank.webp"
+    },
+    "hyxcuF2I0xcZSGkm": {
+      "__DOCUMENT_NAME__": "Infernis",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Infernis.webp"
+    },
+    "hzKmydI8sR3uk4CO": {
+      "__DOCUMENT_NAME__": "Firbolg",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Firbolg.webp"
+    },
+    "pDt6fI6otv2E2odf": {
+      "__DOCUMENT_NAME__": "Dwarf",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Dwarf.webp"
+    },
+    "q2l6g3Ssa04K84GO": {
+      "__DOCUMENT_NAME__": "Elf",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Elf.webp"
+    },
+    "wtJ5V5qRppLQn61n": {
+      "__DOCUMENT_NAME__": "Human",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Human.webp"
+    },
+    "yyW0UM8srD9WuwW7": {
+      "__DOCUMENT_NAME__": "Katari",
+      "item": "modules/art-for-daggerheart/ancestries/portraits/Katari.webp"
+    }
+  }
+}

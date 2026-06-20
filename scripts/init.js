@@ -306,13 +306,15 @@ const ITEM_ART_PACKS = new Map();   // packName -> { itemId: imgPath }
 let ITEM_ART_LOADED = false;
 let _itemArtLoadPromise = null;
 
-// img prefixes we are allowed to override on already-existing (embedded/world)
+// img values we are allowed to override on already-existing (embedded/world)
 // copies. This keeps user-customized art intact while still replacing the
-// untouched system default icons.
+// untouched system defaults: domain cards use a system asset icon, while
+// ancestries/communities/subclasses default to core Foundry "icons/..." art.
 const ITEM_ART_DEFAULT_HINTS = ["/assets/icons/domains/domain-card/"];
 
 function isReplaceableItemImg(img) {
   if (!img) return true;
+  if (img.startsWith("icons/")) return true; // core Foundry generic icons = default art
   return ITEM_ART_DEFAULT_HINTS.some(h => img.includes(h));
 }
 
@@ -324,25 +326,32 @@ async function loadItemArtMappings() {
     const module = game.modules.get(MODULE_ID);
     const systemId = game.system?.id;
     const entry = module?.flags?.itemArtMappings?.[systemId];
-    if (!entry?.mapping) { ITEM_ART_LOADED = true; return; }
+    // Support a single "mapping" string or a "mappings" array of files.
+    const files = entry?.mappings ?? (entry?.mapping ? [entry.mapping] : []);
+    if (!files.length) { ITEM_ART_LOADED = true; return; }
 
-    debugLog(`Loading item art mapping: ${entry.mapping}`);
-    const res = await fetch(entry.mapping);
-    if (!res.ok) {
-      debugWarn(`Failed to fetch item art mapping ${entry.mapping}: ${res.status} ${res.statusText}`);
-      ITEM_ART_LOADED = true;
-      return;
-    }
-    const data = await res.json();
-    for (const [packName, items] of Object.entries(data)) {
-      const byId = ITEM_ART_PACKS.get(packName) ?? {};
-      for (const [itemId, info] of Object.entries(items)) {
-        const img = typeof info === "string" ? info : info?.item;
-        if (!img) continue;
-        byId[itemId] = img;
-        ITEM_ART_BY_UUID.set(`Compendium.${packName}.Item.${itemId}`, img);
+    for (const file of files) {
+      try {
+        debugLog(`Loading item art mapping: ${file}`);
+        const res = await fetch(file);
+        if (!res.ok) {
+          debugWarn(`Failed to fetch item art mapping ${file}: ${res.status} ${res.statusText}`);
+          continue;
+        }
+        const data = await res.json();
+        for (const [packName, items] of Object.entries(data)) {
+          const byId = ITEM_ART_PACKS.get(packName) ?? {};
+          for (const [itemId, info] of Object.entries(items)) {
+            const img = typeof info === "string" ? info : info?.item;
+            if (!img) continue;
+            byId[itemId] = img;
+            ITEM_ART_BY_UUID.set(`Compendium.${packName}.Item.${itemId}`, img);
+          }
+          ITEM_ART_PACKS.set(packName, byId);
+        }
+      } catch (e) {
+        debugError(`Error loading item art mapping ${file}:`, e);
       }
-      ITEM_ART_PACKS.set(packName, byId);
     }
     debugInfo(`Item art loaded: ${ITEM_ART_BY_UUID.size} entries across ${ITEM_ART_PACKS.size} pack(s).`);
   } catch (e) {

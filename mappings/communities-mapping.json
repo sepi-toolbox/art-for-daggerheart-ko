@@ -1,0 +1,40 @@
+{
+  "daggerheart.communities": {
+    "82mDY2EIBfLkNwQj": {
+      "__DOCUMENT_NAME__": "Wanderborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Wanderborne.webp"
+    },
+    "CRJ5pzJj4FjCtIlx": {
+      "__DOCUMENT_NAME__": "Wildborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Wildborne.webp"
+    },
+    "DVw2mOCHB8i0XeBz": {
+      "__DOCUMENT_NAME__": "Highborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Highborne.webp"
+    },
+    "TY2TejenASXtS484": {
+      "__DOCUMENT_NAME__": "Orderborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Orderborne.webp"
+    },
+    "WHLA4qrdszXQHOuo": {
+      "__DOCUMENT_NAME__": "Ridgeborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Ridgeborne.webp"
+    },
+    "YsvlyqYoi8QQ8kwm": {
+      "__DOCUMENT_NAME__": "Loreborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Loreborne.webp"
+    },
+    "eX0I1ZNMyD3nfaL1": {
+      "__DOCUMENT_NAME__": "Underborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Underborne.webp"
+    },
+    "o5AA5J05N7EvH1rN": {
+      "__DOCUMENT_NAME__": "Seaborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Seaborne.webp"
+    },
+    "rGwCPMqZtky7SE6d": {
+      "__DOCUMENT_NAME__": "Slyborne",
+      "item": "modules/art-for-daggerheart/communities/portraits/Slyborne.webp"
+    }
+  }
+}
