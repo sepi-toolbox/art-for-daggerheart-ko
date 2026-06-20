@@ -1,0 +1,760 @@
+{
+  "daggerheart.domains": {
+    "06UapZuaA5S6fAKl": {
+      "__DOCUMENT_NAME__": "Forager",
+      "item": "modules/art-for-daggerheart/domains/portraits/Forager.webp"
+    },
+    "0kAVO6rordCfZqYP": {
+      "__DOCUMENT_NAME__": "Chain Lightning",
+      "item": "modules/art-for-daggerheart/domains/portraits/Chain Lightning.webp"
+    },
+    "0vdpIn06ifF3xxqZ": {
+      "__DOCUMENT_NAME__": "Phantom Retreat",
+      "item": "modules/art-for-daggerheart/domains/portraits/Phantom Retreat.webp"
+    },
+    "1ROT08E1UVBwHLAS": {
+      "__DOCUMENT_NAME__": "Wall Walk",
+      "item": "modules/art-for-daggerheart/domains/portraits/Wall Walk.webp"
+    },
+    "1VXzwRbvbBj5bd5V": {
+      "__DOCUMENT_NAME__": "Book of Tyfar",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Tyfar.webp"
+    },
+    "1p1cOmbnRd5CoKBp": {
+      "__DOCUMENT_NAME__": "Preservation Blast",
+      "item": "modules/art-for-daggerheart/domains/portraits/Preservation Blast.webp"
+    },
+    "2ZeuCGVatQdPOVC6": {
+      "__DOCUMENT_NAME__": "Hypnotic Shimmer",
+      "item": "modules/art-for-daggerheart/domains/portraits/Hypnotic Shimmer.webp"
+    },
+    "2ooUo2yoilGifY81": {
+      "__DOCUMENT_NAME__": "Reckless",
+      "item": "modules/art-for-daggerheart/domains/portraits/Reckless.webp"
+    },
+    "38znCh6kHTkaPwYi": {
+      "__DOCUMENT_NAME__": "Deft Deceiver",
+      "item": "modules/art-for-daggerheart/domains/portraits/Deft Deceiver.webp"
+    },
+    "3A7LZ1xmDEMGa165": {
+      "__DOCUMENT_NAME__": "Copycat",
+      "item": "modules/art-for-daggerheart/domains/portraits/Copycat.webp"
+    },
+    "3zvjgZ5Od343wHzx": {
+      "__DOCUMENT_NAME__": "Gore and Glory",
+      "item": "modules/art-for-daggerheart/domains/portraits/Gore and Glory.webp"
+    },
+    "4uAFGp3LxiC07woC": {
+      "__DOCUMENT_NAME__": "Salvation Beam",
+      "item": "modules/art-for-daggerheart/domains/portraits/Salvation Beam.webp"
+    },
+    "54GUjNuBEy7xdzMz": {
+      "__DOCUMENT_NAME__": "Flight",
+      "item": "modules/art-for-daggerheart/domains/portraits/Flight.webp"
+    },
+    "5EP2Lgf7ojfrc0Is": {
+      "__DOCUMENT_NAME__": "Cinder Grasp",
+      "item": "modules/art-for-daggerheart/domains/portraits/Cinder Grasp.webp"
+    },
+    "5PvMQKCjrgSxzstn": {
+      "__DOCUMENT_NAME__": "Arcana-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Arcana-Touched.webp"
+    },
+    "5b1awkgTmMp3FVrm": {
+      "__DOCUMENT_NAME__": "Strategic Approach",
+      "item": "modules/art-for-daggerheart/domains/portraits/Strategic Approach.webp"
+    },
+    "5bBU9jWHOuOY12lR": {
+      "__DOCUMENT_NAME__": "Scramble",
+      "item": "modules/art-for-daggerheart/domains/portraits/Scramble.webp"
+    },
+    "62Sj67PdPFzwWVe3": {
+      "__DOCUMENT_NAME__": "Eclipse",
+      "item": "modules/art-for-daggerheart/domains/portraits/Eclipse.webp"
+    },
+    "6dhqo1kzGxejCjHa": {
+      "__DOCUMENT_NAME__": "Counterspell",
+      "item": "modules/art-for-daggerheart/domains/portraits/Counterspell.webp"
+    },
+    "7Pu83ABdMukTxu3e": {
+      "__DOCUMENT_NAME__": "Codex-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Codex-Touched.webp"
+    },
+    "7b0mzV5QMPjVPT4o": {
+      "__DOCUMENT_NAME__": "Through Your Eyes",
+      "item": "modules/art-for-daggerheart/domains/portraits/Through Your Eyes.webp"
+    },
+    "8UANBgSdhMZ0sqfO": {
+      "__DOCUMENT_NAME__": "Breaking Blow",
+      "item": "modules/art-for-daggerheart/domains/portraits/Breaking Blow.webp"
+    },
+    "8nRle10pw1HO8QVu": {
+      "__DOCUMENT_NAME__": "Share the Burden",
+      "item": "modules/art-for-daggerheart/domains/portraits/Share the Burden.webp"
+    },
+    "9DwSxHoUwl8Kxj3n": {
+      "__DOCUMENT_NAME__": "Wrangle",
+      "item": "modules/art-for-daggerheart/domains/portraits/Wrangle.webp"
+    },
+    "9QElncQUDSakuSdR": {
+      "__DOCUMENT_NAME__": "Untouchable",
+      "item": "modules/art-for-daggerheart/domains/portraits/Untouchable.webp"
+    },
+    "9a6xP5pxhVvdugk9": {
+      "__DOCUMENT_NAME__": "Plant Dominion",
+      "item": "modules/art-for-daggerheart/domains/portraits/Plant Dominion.webp"
+    },
+    "9dFvcM1i3bxG3BSA": {
+      "__DOCUMENT_NAME__": "Wild Fortress",
+      "item": "modules/art-for-daggerheart/domains/portraits/Wild Fortress.webp"
+    },
+    "A0XzD6MmBXYdk7Ps": {
+      "__DOCUMENT_NAME__": "Shadowhunter",
+      "item": "modules/art-for-daggerheart/domains/portraits/Shadowhunter.webp"
+    },
+    "ABp9pUfBS69NomTD": {
+      "__DOCUMENT_NAME__": "Critical Inspiration",
+      "item": "modules/art-for-daggerheart/domains/portraits/Critical Inspiration.webp"
+    },
+    "AIbHfryMA2Rvs1ut": {
+      "__DOCUMENT_NAME__": "Banish",
+      "item": "modules/art-for-daggerheart/domains/portraits/Banish.webp"
+    },
+    "B4choj481tqajWb9": {
+      "__DOCUMENT_NAME__": "Thought Delver",
+      "item": "modules/art-for-daggerheart/domains/portraits/Thought Delver.webp"
+    },
+    "B5HXqYRJiL3xMNKT": {
+      "__DOCUMENT_NAME__": "Glyph of Nightfall",
+      "item": "modules/art-for-daggerheart/domains/portraits/Glyph of Nightfall.webp"
+    },
+    "BFWN2cObMdlk9uVz": {
+      "__DOCUMENT_NAME__": "Get Back Up",
+      "item": "modules/art-for-daggerheart/domains/portraits/Get Back Up.webp"
+    },
+    "BNevJyGk7hmN7XOY": {
+      "__DOCUMENT_NAME__": "Bolt Beacon",
+      "item": "modules/art-for-daggerheart/domains/portraits/Bolt Beacon.webp"
+    },
+    "BdePs1ZWpZTZvY1Z": {
+      "__DOCUMENT_NAME__": "Lean on Me",
+      "item": "modules/art-for-daggerheart/domains/portraits/Lean on Me.webp"
+    },
+    "C0qLOwSSvZ6PG3Ws": {
+      "__DOCUMENT_NAME__": "Earthquake",
+      "item": "modules/art-for-daggerheart/domains/portraits/Earthquake.webp"
+    },
+    "CUIQmrPjf9VCHmwJ": {
+      "__DOCUMENT_NAME__": "Unbreakable",
+      "item": "modules/art-for-daggerheart/domains/portraits/Unbreakable.webp"
+    },
+    "DjnKlZQYaWdQGKcK": {
+      "__DOCUMENT_NAME__": "Wild Surge",
+      "item": "modules/art-for-daggerheart/domains/portraits/Wild Surge.webp"
+    },
+    "Ef1JsUG50LIoKx2F": {
+      "__DOCUMENT_NAME__": "Battle Cry",
+      "item": "modules/art-for-daggerheart/domains/portraits/Battle Cry.webp"
+    },
+    "F2m9wvZ3v5c3yCtv": {
+      "__DOCUMENT_NAME__": "Fane of the Wilds",
+      "item": "modules/art-for-daggerheart/domains/portraits/Fane of the Wilds.webp"
+    },
+    "FXLsB3QbQvTtqX5B": {
+      "__DOCUMENT_NAME__": "Midnight Spirit",
+      "item": "modules/art-for-daggerheart/domains/portraits/Midnight Spirit.webp"
+    },
+    "FgzBppvLjXr0UbUI": {
+      "__DOCUMENT_NAME__": "Telekinesis",
+      "item": "modules/art-for-daggerheart/domains/portraits/Telekinesis.webp"
+    },
+    "GBMIElIpk4cvk1Bd": {
+      "__DOCUMENT_NAME__": "Vanishing Dodge",
+      "item": "modules/art-for-daggerheart/domains/portraits/Vanishing Dodge.webp"
+    },
+    "GEhBUmv9Bj7oJfHk": {
+      "__DOCUMENT_NAME__": "Rune Ward",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rune Ward.webp"
+    },
+    "GRL0cvs96vrTDckZ": {
+      "__DOCUMENT_NAME__": "Rage Up",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rage Up.webp"
+    },
+    "Gb5bqpFSBiuBxUix": {
+      "__DOCUMENT_NAME__": "Blade-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Blade-Touched.webp"
+    },
+    "GlRm1Dxlc0Z1b04o": {
+      "__DOCUMENT_NAME__": "Healing Field",
+      "item": "modules/art-for-daggerheart/domains/portraits/Healing Field.webp"
+    },
+    "H6TqCJBaa1eWEQ1z": {
+      "__DOCUMENT_NAME__": "Swift Step",
+      "item": "modules/art-for-daggerheart/domains/portraits/Swift Step.webp"
+    },
+    "HTv9QEPS466WsstP": {
+      "__DOCUMENT_NAME__": "Tell No Lies",
+      "item": "modules/art-for-daggerheart/domains/portraits/Tell No Lies.webp"
+    },
+    "HdgZUfWd7Hyj7nBW": {
+      "__DOCUMENT_NAME__": "Pick and Pull",
+      "item": "modules/art-for-daggerheart/domains/portraits/Pick and Pull.webp"
+    },
+    "HnPwVrWblYa9hwSt": {
+      "__DOCUMENT_NAME__": "Teleport",
+      "item": "modules/art-for-daggerheart/domains/portraits/Teleport.webp"
+    },
+    "HtWx5IIemCoorMj2": {
+      "__DOCUMENT_NAME__": "Rejuvenation Barrier",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rejuvenation Barrier.webp"
+    },
+    "HufF5KzuNfEb9RTi": {
+      "__DOCUMENT_NAME__": "Goad Them On",
+      "item": "modules/art-for-daggerheart/domains/portraits/Goad Them On.webp"
+    },
+    "I7pNsQ9Yx6mRJX4V": {
+      "__DOCUMENT_NAME__": "Onslaught",
+      "item": "modules/art-for-daggerheart/domains/portraits/Onslaught.webp"
+    },
+    "IqxzvvjZiYbgx21A": {
+      "__DOCUMENT_NAME__": "Notorious",
+      "item": "modules/art-for-daggerheart/domains/portraits/Notorious.webp"
+    },
+    "J1ovx2FpNDvPq1o6": {
+      "__DOCUMENT_NAME__": "Book of Yarrow",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Yarrow.webp"
+    },
+    "JT5dM3gVL6chDBYU": {
+      "__DOCUMENT_NAME__": "Splendor-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Splendor-Touched.webp"
+    },
+    "Jkp6cMDiHHaBZQRS": {
+      "__DOCUMENT_NAME__": "Conjured Steeds",
+      "item": "modules/art-for-daggerheart/domains/portraits/Conjured Steeds.webp"
+    },
+    "JrdZedm1BFKeV7Yb": {
+      "__DOCUMENT_NAME__": "Troublemaker",
+      "item": "modules/art-for-daggerheart/domains/portraits/Troublemaker.webp"
+    },
+    "JrkUMTzaFmQNBHVm": {
+      "__DOCUMENT_NAME__": "Forest Sprites",
+      "item": "modules/art-for-daggerheart/domains/portraits/Forest Sprites.webp"
+    },
+    "JwfhtgmmuRxg4zhI": {
+      "__DOCUMENT_NAME__": "Shrug It Off",
+      "item": "modules/art-for-daggerheart/domains/portraits/Shrug It Off.webp"
+    },
+    "JzSvxy9Mu3RJp1jV": {
+      "__DOCUMENT_NAME__": "Arcane Reflection",
+      "item": "modules/art-for-daggerheart/domains/portraits/Arcane Reflection.webp"
+    },
+    "K8oFepK24UVsAX8B": {
+      "__DOCUMENT_NAME__": "Divination",
+      "item": "modules/art-for-daggerheart/domains/portraits/Divination.webp"
+    },
+    "KAuNb51AwhD8KEXk": {
+      "__DOCUMENT_NAME__": "Grace-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Grace-Touched.webp"
+    },
+    "KHkzA4Zrw8EWN1CH": {
+      "__DOCUMENT_NAME__": "Invisibility",
+      "item": "modules/art-for-daggerheart/domains/portraits/Invisibility.webp"
+    },
+    "KOf6LLpMRNwjezDx": {
+      "__DOCUMENT_NAME__": "I Am Your Shield",
+      "item": "modules/art-for-daggerheart/domains/portraits/I Am Your Shield.webp"
+    },
+    "Kp6RejHGimnuoBom": {
+      "__DOCUMENT_NAME__": "I See It Coming",
+      "item": "modules/art-for-daggerheart/domains/portraits/I See It Coming.webp"
+    },
+    "LWRkhNY968Cu2Zl5": {
+      "__DOCUMENT_NAME__": "Signature Move",
+      "item": "modules/art-for-daggerheart/domains/portraits/Signature Move.webp"
+    },
+    "LzVpMkD5I4QeaIHf": {
+      "__DOCUMENT_NAME__": "Force of Nature",
+      "item": "modules/art-for-daggerheart/domains/portraits/Force of Nature.webp"
+    },
+    "MCgNRlh0s5XUPCfl": {
+      "__DOCUMENT_NAME__": "Reaper’s Strike",
+      "item": "modules/art-for-daggerheart/domains/portraits/Reaper’s Strike.webp"
+    },
+    "MMl7abdGRLl7TJLO": {
+      "__DOCUMENT_NAME__": "Frenzy",
+      "item": "modules/art-for-daggerheart/domains/portraits/Frenzy.webp"
+    },
+    "McdncxmO9K1YNP7Y": {
+      "__DOCUMENT_NAME__": "Never Upstaged",
+      "item": "modules/art-for-daggerheart/domains/portraits/Never Upstaged.webp"
+    },
+    "NIUhmuQGwbb3UClZ": {
+      "__DOCUMENT_NAME__": "Stealth Expertise",
+      "item": "modules/art-for-daggerheart/domains/portraits/Stealth Expertise.webp"
+    },
+    "Nbw6Jnh1vRZzwHQI": {
+      "__DOCUMENT_NAME__": "Final Words",
+      "item": "modules/art-for-daggerheart/domains/portraits/Final Words.webp"
+    },
+    "NeEOghgfyDUBTwBG": {
+      "__DOCUMENT_NAME__": "Battle-Hardened",
+      "item": "modules/art-for-daggerheart/domains/portraits/Battle-Hardened.webp"
+    },
+    "O38MQMhJWdZnXi6b": {
+      "__DOCUMENT_NAME__": "Know Thy Enemy",
+      "item": "modules/art-for-daggerheart/domains/portraits/Know Thy Enemy.webp"
+    },
+    "ON5bvnoQBy0SYc9Y": {
+      "__DOCUMENT_NAME__": "Bone-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Bone-Touched.webp"
+    },
+    "OszbCj0jTqq2ADx9": {
+      "__DOCUMENT_NAME__": "Life Ward",
+      "item": "modules/art-for-daggerheart/domains/portraits/Life Ward.webp"
+    },
+    "P0ezScyQ5t8ruByf": {
+      "__DOCUMENT_NAME__": "Battle Monster",
+      "item": "modules/art-for-daggerheart/domains/portraits/Battle Monster.webp"
+    },
+    "QED2PDYePOSTbLtC": {
+      "__DOCUMENT_NAME__": "Soothing Speech",
+      "item": "modules/art-for-daggerheart/domains/portraits/Soothing Speech.webp"
+    },
+    "QXs4vssSqNGQu5b8": {
+      "__DOCUMENT_NAME__": "Brace",
+      "item": "modules/art-for-daggerheart/domains/portraits/Brace.webp"
+    },
+    "Qu0iA4s3Xov10Erd": {
+      "__DOCUMENT_NAME__": "Blink Out",
+      "item": "modules/art-for-daggerheart/domains/portraits/Blink Out.webp"
+    },
+    "R0LNheiZycZlZzV3": {
+      "__DOCUMENT_NAME__": "Book of Grynn",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Grynn.webp"
+    },
+    "R5GYUalYXLLFRlNl": {
+      "__DOCUMENT_NAME__": "Chokehold",
+      "item": "modules/art-for-daggerheart/domains/portraits/Chokehold.webp"
+    },
+    "R8NDiJXJWmC48WSr": {
+      "__DOCUMENT_NAME__": "Confusing Aura",
+      "item": "modules/art-for-daggerheart/domains/portraits/Confusing Aura.webp"
+    },
+    "RiuN0lMlfoTAhLJz": {
+      "__DOCUMENT_NAME__": "Sigil of Retribution",
+      "item": "modules/art-for-daggerheart/domains/portraits/Sigil of Retribution.webp"
+    },
+    "SDjjV61TC1NceV1m": {
+      "__DOCUMENT_NAME__": "Twilight Toll",
+      "item": "modules/art-for-daggerheart/domains/portraits/Twilight Toll.webp"
+    },
+    "SZMNR3uGNinJcN4N": {
+      "__DOCUMENT_NAME__": "Book of Ronin",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Ronin.webp"
+    },
+    "SgvjJfMyubZowPxS": {
+      "__DOCUMENT_NAME__": "Full Surge",
+      "item": "modules/art-for-daggerheart/domains/portraits/Full Surge.webp"
+    },
+    "TGjR4vJVNbQRV8zr": {
+      "__DOCUMENT_NAME__": "Mending Touch",
+      "item": "modules/art-for-daggerheart/domains/portraits/Mending Touch.webp"
+    },
+    "TV56wSysbU5xAlOa": {
+      "__DOCUMENT_NAME__": "Uncanny Disguise",
+      "item": "modules/art-for-daggerheart/domains/portraits/Uncanny Disguise.webp"
+    },
+    "TYKfM3H9vBXyWiH4": {
+      "__DOCUMENT_NAME__": "Splintering Strike",
+      "item": "modules/art-for-daggerheart/domains/portraits/Splintering Strike.webp"
+    },
+    "Tag303LoRNC5zGgl": {
+      "__DOCUMENT_NAME__": "Natural Familiar",
+      "item": "modules/art-for-daggerheart/domains/portraits/Natural Familiar.webp"
+    },
+    "TtGOtWkbr23VhHfH": {
+      "__DOCUMENT_NAME__": "Manifest Wall",
+      "item": "modules/art-for-daggerheart/domains/portraits/Manifest Wall.webp"
+    },
+    "U1uWJE94HZVudujz": {
+      "__DOCUMENT_NAME__": "Smite",
+      "item": "modules/art-for-daggerheart/domains/portraits/Smite.webp"
+    },
+    "Ucenef6JpjQxwXni": {
+      "__DOCUMENT_NAME__": "Rain of Blades",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rain of Blades.webp"
+    },
+    "VKAHS6eWz28ukcDs": {
+      "__DOCUMENT_NAME__": "Boost",
+      "item": "modules/art-for-daggerheart/domains/portraits/Boost.webp"
+    },
+    "VOIgm2j2Ijszwc5m": {
+      "__DOCUMENT_NAME__": "Book of Vyola",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Vyola.webp"
+    },
+    "VOSFaQHZbmhMyXwi": {
+      "__DOCUMENT_NAME__": "Sage-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Sage-Touched.webp"
+    },
+    "VZ2b4zfRzV73XTuT": {
+      "__DOCUMENT_NAME__": "Gifted Tracker",
+      "item": "modules/art-for-daggerheart/domains/portraits/Gifted Tracker.webp"
+    },
+    "WChWEH36lUpXAC0K": {
+      "__DOCUMENT_NAME__": "Tactician",
+      "item": "modules/art-for-daggerheart/domains/portraits/Tactician.webp"
+    },
+    "WTlhnQMajc1r8i50": {
+      "__DOCUMENT_NAME__": "Healing Hands",
+      "item": "modules/art-for-daggerheart/domains/portraits/Healing Hands.webp"
+    },
+    "WnGldYhJPDhx8v9X": {
+      "__DOCUMENT_NAME__": "Ground Pound",
+      "item": "modules/art-for-daggerheart/domains/portraits/Ground Pound.webp"
+    },
+    "WtwSWXTRZa7QVvmo": {
+      "__DOCUMENT_NAME__": "Book of Norai",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Norai.webp"
+    },
+    "X7YaZgFieBlqaPdZ": {
+      "__DOCUMENT_NAME__": "Tempest",
+      "item": "modules/art-for-daggerheart/domains/portraits/Tempest.webp"
+    },
+    "X8OfkEoI5gLTRf1B": {
+      "__DOCUMENT_NAME__": "Invigoration",
+      "item": "modules/art-for-daggerheart/domains/portraits/Invigoration.webp"
+    },
+    "XTT8c8uJ4D7fvtbL": {
+      "__DOCUMENT_NAME__": "Inevitable",
+      "item": "modules/art-for-daggerheart/domains/portraits/Inevitable.webp"
+    },
+    "XtSc0jIJLOoMTMYS": {
+      "__DOCUMENT_NAME__": "Healing Strike",
+      "item": "modules/art-for-daggerheart/domains/portraits/Healing Strike.webp"
+    },
+    "Y08dLFuPXsgeRrHi": {
+      "__DOCUMENT_NAME__": "A Soldier’s Bond",
+      "item": "modules/art-for-daggerheart/domains/portraits/A Soldier’s Bond.webp"
+    },
+    "YNOCNmZ96sCp9NEr": {
+      "__DOCUMENT_NAME__": "Astral Projection",
+      "item": "modules/art-for-daggerheart/domains/portraits/Astral Projection.webp"
+    },
+    "YWCRplmtwpCjpq5i": {
+      "__DOCUMENT_NAME__": "Lead by Example",
+      "item": "modules/art-for-daggerheart/domains/portraits/Lead by Example.webp"
+    },
+    "YtZzYBtR0yLPPA93": {
+      "__DOCUMENT_NAME__": "Book of Ava",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Ava.webp"
+    },
+    "Zhw7PtK8nMPlsOqD": {
+      "__DOCUMENT_NAME__": "Cloaking Blast",
+      "item": "modules/art-for-daggerheart/domains/portraits/Cloaking Blast.webp"
+    },
+    "ZjAdi1FSNCDDHI3X": {
+      "__DOCUMENT_NAME__": "Words of Discord",
+      "item": "modules/art-for-daggerheart/domains/portraits/Words of Discord.webp"
+    },
+    "Zp2S2EnLS5Iv3XuT": {
+      "__DOCUMENT_NAME__": "Adjust Reality",
+      "item": "modules/art-for-daggerheart/domains/portraits/Adjust Reality.webp"
+    },
+    "a8lFiKX1o8T924ze": {
+      "__DOCUMENT_NAME__": "Enrapture",
+      "item": "modules/art-for-daggerheart/domains/portraits/Enrapture.webp"
+    },
+    "aC43NiFQLpOADyjO": {
+      "__DOCUMENT_NAME__": "Premonition",
+      "item": "modules/art-for-daggerheart/domains/portraits/Premonition.webp"
+    },
+    "aQz8jKkCd8M9aKMA": {
+      "__DOCUMENT_NAME__": "Body Basher",
+      "item": "modules/art-for-daggerheart/domains/portraits/Body Basher.webp"
+    },
+    "aknDDYtN7EObv94t": {
+      "__DOCUMENT_NAME__": "Book of Vagras",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Vagras.webp"
+    },
+    "anO0arioUy7I5zBg": {
+      "__DOCUMENT_NAME__": "Whirlwind",
+      "item": "modules/art-for-daggerheart/domains/portraits/Whirlwind.webp"
+    },
+    "atWLorlCOxcrq8WB": {
+      "__DOCUMENT_NAME__": "Nature’s Tongue",
+      "item": "modules/art-for-daggerheart/domains/portraits/Nature’s Tongue.webp"
+    },
+    "bap1eCWryPNowbyo": {
+      "__DOCUMENT_NAME__": "Cruel Precision",
+      "item": "modules/art-for-daggerheart/domains/portraits/Cruel Precision.webp"
+    },
+    "cWRFHJdxEZ0M1dAg": {
+      "__DOCUMENT_NAME__": "Book of Korvax",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Korvax.webp"
+    },
+    "cWu1o82ZF7GvnbXc": {
+      "__DOCUMENT_NAME__": "Inspirational Words",
+      "item": "modules/art-for-daggerheart/domains/portraits/Inspirational Words.webp"
+    },
+    "cy8GjBPGc9w9RaGO": {
+      "__DOCUMENT_NAME__": "Armorer",
+      "item": "modules/art-for-daggerheart/domains/portraits/Armorer.webp"
+    },
+    "dT95m0Jam8sWbeuC": {
+      "__DOCUMENT_NAME__": "Mass Disguise",
+      "item": "modules/art-for-daggerheart/domains/portraits/Mass Disguise.webp"
+    },
+    "db4xV3YErHRslbVE": {
+      "__DOCUMENT_NAME__": "Shape Material",
+      "item": "modules/art-for-daggerheart/domains/portraits/Shape Material.webp"
+    },
+    "dc4rAXlv95srZUct": {
+      "__DOCUMENT_NAME__": "Deft Maneuvers",
+      "item": "modules/art-for-daggerheart/domains/portraits/Deft Maneuvers.webp"
+    },
+    "df4iRqQzRntrF6Qw": {
+      "__DOCUMENT_NAME__": "Book of Illiat",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Illiat.webp"
+    },
+    "eq8VNqYMRHhF9xw9": {
+      "__DOCUMENT_NAME__": "Book of Sitil",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Sitil.webp"
+    },
+    "ewhIzXQ2h9fS9I8c": {
+      "__DOCUMENT_NAME__": "Spellcharge",
+      "item": "modules/art-for-daggerheart/domains/portraits/Spellcharge.webp"
+    },
+    "faU0XkJCbar69PiN": {
+      "__DOCUMENT_NAME__": "Redirect",
+      "item": "modules/art-for-daggerheart/domains/portraits/Redirect.webp"
+    },
+    "ffPbSEvLuFrFsMxl": {
+      "__DOCUMENT_NAME__": "Second Wind",
+      "item": "modules/art-for-daggerheart/domains/portraits/Second Wind.webp"
+    },
+    "gFMx08ogQ8hS2Obi": {
+      "__DOCUMENT_NAME__": "Book of Homet",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Homet.webp"
+    },
+    "gV4L5ZZmfPrEbIDh": {
+      "__DOCUMENT_NAME__": "Veil of Night",
+      "item": "modules/art-for-daggerheart/domains/portraits/Veil of Night.webp"
+    },
+    "gZOMzskSOfeiXn54": {
+      "__DOCUMENT_NAME__": "Sensory Projection",
+      "item": "modules/art-for-daggerheart/domains/portraits/Sensory Projection.webp"
+    },
+    "gsiQFT6q3WOgqerJ": {
+      "__DOCUMENT_NAME__": "Recovery",
+      "item": "modules/art-for-daggerheart/domains/portraits/Recovery.webp"
+    },
+    "gwmYasmfgXZ7tFS6": {
+      "__DOCUMENT_NAME__": "Hush",
+      "item": "modules/art-for-daggerheart/domains/portraits/Hush.webp"
+    },
+    "hZJp9mdkMnqKDROe": {
+      "__DOCUMENT_NAME__": "Falling Sky",
+      "item": "modules/art-for-daggerheart/domains/portraits/Falling Sky.webp"
+    },
+    "iEBLySZD9z8CLdz7": {
+      "__DOCUMENT_NAME__": "Overwhelming Aura",
+      "item": "modules/art-for-daggerheart/domains/portraits/Overwhelming Aura.webp"
+    },
+    "iQhgqmLwhcSTYnvr": {
+      "__DOCUMENT_NAME__": "Specter of the Dark",
+      "item": "modules/art-for-daggerheart/domains/portraits/Specter of the Dark.webp"
+    },
+    "iYNVTB7uAD1FTCZu": {
+      "__DOCUMENT_NAME__": "Reassurance",
+      "item": "modules/art-for-daggerheart/domains/portraits/Reassurance.webp"
+    },
+    "jSQsSP61CX4MhSN7": {
+      "__DOCUMENT_NAME__": "Ferocity",
+      "item": "modules/art-for-daggerheart/domains/portraits/Ferocity.webp"
+    },
+    "k1AtYd3lSchIymBr": {
+      "__DOCUMENT_NAME__": "Valor-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Valor-Touched.webp"
+    },
+    "kVkoCLBXLAIifqpz": {
+      "__DOCUMENT_NAME__": "Transcendent Union",
+      "item": "modules/art-for-daggerheart/domains/portraits/Transcendent Union.webp"
+    },
+    "kdFoLo3KXwn4LqTG": {
+      "__DOCUMENT_NAME__": "Hold the Line",
+      "item": "modules/art-for-daggerheart/domains/portraits/Hold the Line.webp"
+    },
+    "kguhWlidhxe2GbT0": {
+      "__DOCUMENT_NAME__": "Shadowbind",
+      "item": "modules/art-for-daggerheart/domains/portraits/Shadowbind.webp"
+    },
+    "kja5qvh4rdeDBB96": {
+      "__DOCUMENT_NAME__": "Disintegration Wave",
+      "item": "modules/art-for-daggerheart/domains/portraits/Disintegration Wave.webp"
+    },
+    "klahWDFwihqqEhXP": {
+      "__DOCUMENT_NAME__": "Encore",
+      "item": "modules/art-for-daggerheart/domains/portraits/Encore.webp"
+    },
+    "l5D9kq901JDESaXw": {
+      "__DOCUMENT_NAME__": "Bare Bones",
+      "item": "modules/art-for-daggerheart/domains/portraits/Bare Bones.webp"
+    },
+    "lOZaRb4fCVgQsWB5": {
+      "__DOCUMENT_NAME__": "Zone of Protection",
+      "item": "modules/art-for-daggerheart/domains/portraits/Zone of Protection.webp"
+    },
+    "lRHo6ZkK1zybeEoG": {
+      "__DOCUMENT_NAME__": "Stunning Sunlight",
+      "item": "modules/art-for-daggerheart/domains/portraits/Stunning Sunlight.webp"
+    },
+    "lmBLMPuR8qLbuzNf": {
+      "__DOCUMENT_NAME__": "Safe Haven",
+      "item": "modules/art-for-daggerheart/domains/portraits/Safe Haven.webp"
+    },
+    "n0P3VS1WfxvmXbB6": {
+      "__DOCUMENT_NAME__": "Towering Stalk",
+      "item": "modules/art-for-daggerheart/domains/portraits/Towering Stalk.webp"
+    },
+    "nCNCqSH7UgW4O3To": {
+      "__DOCUMENT_NAME__": "Glancing Blow",
+      "item": "modules/art-for-daggerheart/domains/portraits/Glancing Blow.webp"
+    },
+    "o62i0QdbUDIiAhSq": {
+      "__DOCUMENT_NAME__": "Unleash Chaos",
+      "item": "modules/art-for-daggerheart/domains/portraits/Unleash Chaos.webp"
+    },
+    "oDIZoC4l19Nli0Fj": {
+      "__DOCUMENT_NAME__": "Rise Up",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rise Up.webp"
+    },
+    "oUipGK84E2KjoKqh": {
+      "__DOCUMENT_NAME__": "Thorn Skin",
+      "item": "modules/art-for-daggerheart/domains/portraits/Thorn Skin.webp"
+    },
+    "oVa49lI107eZILZr": {
+      "__DOCUMENT_NAME__": "Fortified Armor",
+      "item": "modules/art-for-daggerheart/domains/portraits/Fortified Armor.webp"
+    },
+    "oVs2MSC6Uf5GbgEG": {
+      "__DOCUMENT_NAME__": "Book of Exota",
+      "item": "modules/art-for-daggerheart/domains/portraits/Book of Exota.webp"
+    },
+    "pcbYD33rBBdAo5f9": {
+      "__DOCUMENT_NAME__": "Rousing Strike",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rousing Strike.webp"
+    },
+    "qJaSNTuDfbPVr8Lb": {
+      "__DOCUMENT_NAME__": "Corrosive Projectile",
+      "item": "modules/art-for-daggerheart/domains/portraits/Corrosive Projectile.webp"
+    },
+    "qvpvTnkAoRn9vYO4": {
+      "__DOCUMENT_NAME__": "Vicious Entangle",
+      "item": "modules/art-for-daggerheart/domains/portraits/Vicious Entangle.webp"
+    },
+    "rZPH0BY8Sznc9sFG": {
+      "__DOCUMENT_NAME__": "Conjure Swarm",
+      "item": "modules/art-for-daggerheart/domains/portraits/Conjure Swarm.webp"
+    },
+    "rfIv6lln40Fh6EIl": {
+      "__DOCUMENT_NAME__": "Shield Aura",
+      "item": "modules/art-for-daggerheart/domains/portraits/Shield Aura.webp"
+    },
+    "rnejRbUQsNGX1GMC": {
+      "__DOCUMENT_NAME__": "Champion’s Edge",
+      "item": "modules/art-for-daggerheart/domains/portraits/Champion’s Edge.webp"
+    },
+    "s3zRsOMeUkuDwgd8": {
+      "__DOCUMENT_NAME__": "Unyielding Armor",
+      "item": "modules/art-for-daggerheart/domains/portraits/Unyielding Armor.webp"
+    },
+    "sWUlSPOJEaXyQLCj": {
+      "__DOCUMENT_NAME__": "Vitality",
+      "item": "modules/art-for-daggerheart/domains/portraits/Vitality.webp"
+    },
+    "stId5syX7YpP2JGz": {
+      "__DOCUMENT_NAME__": "Support Tank",
+      "item": "modules/art-for-daggerheart/domains/portraits/Support Tank.webp"
+    },
+    "t3RRGH6mMYYJJCcF": {
+      "__DOCUMENT_NAME__": "Voice of Reason",
+      "item": "modules/art-for-daggerheart/domains/portraits/Voice of Reason.webp"
+    },
+    "tNzFNlVHghloKsFi": {
+      "__DOCUMENT_NAME__": "Endless Charisma",
+      "item": "modules/art-for-daggerheart/domains/portraits/Endless Charisma.webp"
+    },
+    "tceJDcCUefrMS2Ov": {
+      "__DOCUMENT_NAME__": "Rapid Riposte",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rapid Riposte.webp"
+    },
+    "tdsL00yTSLNgZWs6": {
+      "__DOCUMENT_NAME__": "Bold Presence",
+      "item": "modules/art-for-daggerheart/domains/portraits/Bold Presence.webp"
+    },
+    "uSyGKVxOJcnp28po": {
+      "__DOCUMENT_NAME__": "Midnight-Touched",
+      "item": "modules/art-for-daggerheart/domains/portraits/Midnight-Touched.webp"
+    },
+    "ubpixIgZrJXKyM3b": {
+      "__DOCUMENT_NAME__": "Mass Enrapture",
+      "item": "modules/art-for-daggerheart/domains/portraits/Mass Enrapture.webp"
+    },
+    "vd5STqX29RpYbGxa": {
+      "__DOCUMENT_NAME__": "Rift Walker",
+      "item": "modules/art-for-daggerheart/domains/portraits/Rift Walker.webp"
+    },
+    "wOQLu7nLMQ7v6Ogw": {
+      "__DOCUMENT_NAME__": "Floating Eye",
+      "item": "modules/art-for-daggerheart/domains/portraits/Floating Eye.webp"
+    },
+    "wQ53ImDswEHv5SGQ": {
+      "__DOCUMENT_NAME__": "Versatile Fighter",
+      "item": "modules/art-for-daggerheart/domains/portraits/Versatile Fighter.webp"
+    },
+    "wUQFsRtww18naYaq": {
+      "__DOCUMENT_NAME__": "Restoration",
+      "item": "modules/art-for-daggerheart/domains/portraits/Restoration.webp"
+    },
+    "x0FVGE1YbfXalJiw": {
+      "__DOCUMENT_NAME__": "Death Grip",
+      "item": "modules/art-for-daggerheart/domains/portraits/Death Grip.webp"
+    },
+    "xFOSn8IVVNizgHFq": {
+      "__DOCUMENT_NAME__": "Deathrun",
+      "item": "modules/art-for-daggerheart/domains/portraits/Deathrun.webp"
+    },
+    "xheQZOIYp0ERQhT9": {
+      "__DOCUMENT_NAME__": "Not Good Enough",
+      "item": "modules/art-for-daggerheart/domains/portraits/Not Good Enough.webp"
+    },
+    "xxZOXC4tiZQ6kg1e": {
+      "__DOCUMENT_NAME__": "Deadly Focus",
+      "item": "modules/art-for-daggerheart/domains/portraits/Deadly Focus.webp"
+    },
+    "yAGTwXHUC3qxpTeK": {
+      "__DOCUMENT_NAME__": "Master of the Craft",
+      "item": "modules/art-for-daggerheart/domains/portraits/Master of the Craft.webp"
+    },
+    "yL2qrSWmTwXVOySH": {
+      "__DOCUMENT_NAME__": "Dark Whispers",
+      "item": "modules/art-for-daggerheart/domains/portraits/Dark Whispers.webp"
+    },
+    "z30ciOwQI7g3tHla": {
+      "__DOCUMENT_NAME__": "Resurrection",
+      "item": "modules/art-for-daggerheart/domains/portraits/Resurrection.webp"
+    },
+    "z8FFPhDh2SdFkFfS": {
+      "__DOCUMENT_NAME__": "Forceful Push",
+      "item": "modules/art-for-daggerheart/domains/portraits/Forceful Push.webp"
+    },
+    "zbxPl81kbWEegKQN": {
+      "__DOCUMENT_NAME__": "On the Brink",
+      "item": "modules/art-for-daggerheart/domains/portraits/On the Brink.webp"
+    },
+    "zcldCuqOg3dphUVI": {
+      "__DOCUMENT_NAME__": "Night Terror",
+      "item": "modules/art-for-daggerheart/domains/portraits/Night Terror.webp"
+    }
+  }
+}

@@ -280,9 +280,156 @@ Hooks.on("applyCompendiumArt", (documentClass, source, pack, art) => {
   });
 });
 
+/* ===========================================================
+ * Item Compendium Art (e.g., Daggerheart domain cards)
+ * -----------------------------------------------------------
+ * Foundry's built-in compendium art system (game.compendiumArt /
+ * the "applyCompendiumArt" hook) is hardcoded to Actor documents
+ * only — it always resolves "Compendium.<pack>.Actor.<id>" and the
+ * art is applied in Actor#_initializeSource. Items (domain cards
+ * live in the system "domains" pack as Item documents) therefore
+ * never receive art that way. We replicate the behaviour for Items:
+ *   1) patch the compendium INDEX img  -> browser/list thumbnails
+ *   2) wrap Item#_initializeSource      -> compendium sheets + cards
+ *      already embedded on existing characters (matched by
+ *      _stats.compendiumSource, default art only)
+ *   3) preCreateItem hook               -> bake art into newly added
+ *      copies so it persists on the character
+ *
+ * Mapping file shape (mappings/<file>.json):
+ *   { "<pack collection id>": { "<itemId>": { "item": "<img path>" } } }
+ * Declared via module flag "itemArtMappings" keyed by system id.
+ * =========================================================== */
+
+const ITEM_ART_BY_UUID = new Map(); // "Compendium.<pack>.Item.<id>" -> img path
+const ITEM_ART_PACKS = new Map();   // packName -> { itemId: imgPath }
+let ITEM_ART_LOADED = false;
+let _itemArtLoadPromise = null;
+
+// img prefixes we are allowed to override on already-existing (embedded/world)
+// copies. This keeps user-customized art intact while still replacing the
+// untouched system default icons.
+const ITEM_ART_DEFAULT_HINTS = ["/assets/icons/domains/domain-card/"];
+
+function isReplaceableItemImg(img) {
+  if (!img) return true;
+  return ITEM_ART_DEFAULT_HINTS.some(h => img.includes(h));
+}
+
+/** Fetch & parse all item-art mapping files declared for the active system. */
+async function loadItemArtMappings() {
+  ITEM_ART_BY_UUID.clear();
+  ITEM_ART_PACKS.clear();
+  try {
+    const module = game.modules.get(MODULE_ID);
+    const systemId = game.system?.id;
+    const entry = module?.flags?.itemArtMappings?.[systemId];
+    if (!entry?.mapping) { ITEM_ART_LOADED = true; return; }
+
+    debugLog(`Loading item art mapping: ${entry.mapping}`);
+    const res = await fetch(entry.mapping);
+    if (!res.ok) {
+      debugWarn(`Failed to fetch item art mapping ${entry.mapping}: ${res.status} ${res.statusText}`);
+      ITEM_ART_LOADED = true;
+      return;
+    }
+    const data = await res.json();
+    for (const [packName, items] of Object.entries(data)) {
+      const byId = ITEM_ART_PACKS.get(packName) ?? {};
+      for (const [itemId, info] of Object.entries(items)) {
+        const img = typeof info === "string" ? info : info?.item;
+        if (!img) continue;
+        byId[itemId] = img;
+        ITEM_ART_BY_UUID.set(`Compendium.${packName}.Item.${itemId}`, img);
+      }
+      ITEM_ART_PACKS.set(packName, byId);
+    }
+    debugInfo(`Item art loaded: ${ITEM_ART_BY_UUID.size} entries across ${ITEM_ART_PACKS.size} pack(s).`);
+  } catch (e) {
+    debugError("Error loading item art mappings:", e);
+  }
+  ITEM_ART_LOADED = true;
+}
+
+/** Resolve the art path for an item source during construction (or null). */
+function resolveItemArt(source, options) {
+  // Compendium-resident item: match by its own pack UUID (always override).
+  const packId = options?.pack;
+  if (packId) {
+    const pack = game.packs?.get(packId);
+    const uuid = pack?.getUuid?.(source._id);
+    return (uuid && ITEM_ART_BY_UUID.has(uuid)) ? ITEM_ART_BY_UUID.get(uuid) : null;
+  }
+  // World / embedded copy: match by compendiumSource, only override default art.
+  const cs = source?._stats?.compendiumSource;
+  if (cs && ITEM_ART_BY_UUID.has(cs) && isReplaceableItemImg(source.img)) {
+    return ITEM_ART_BY_UUID.get(cs);
+  }
+  return null;
+}
+
+/** Wrap Item#_initializeSource to apply our art (mirrors core Actor behaviour). */
+function installItemArtSourcePatch() {
+  const ItemClass = CONFIG?.Item?.documentClass;
+  if (!ItemClass?.prototype) {
+    debugWarn("Item documentClass unavailable; item art source patch skipped.");
+    return;
+  }
+  if (ItemClass.prototype.__afdItemArtPatched) return;
+  const original = ItemClass.prototype._initializeSource;
+  ItemClass.prototype._initializeSource = function (source, options = {}) {
+    const data = original.call(this, source, options);
+    try {
+      if (ITEM_ART_LOADED && data?._id) {
+        const art = resolveItemArt(data, options);
+        if (art) data.img = art;
+      }
+    } catch (e) { /* never break item initialization */ }
+    return data;
+  };
+  ItemClass.prototype.__afdItemArtPatched = true;
+  debugLog("Item art _initializeSource patch installed.");
+}
+
+/** Persist our art into newly created items (e.g., cards dropped on a sheet). */
+function installItemArtCreateHook() {
+  Hooks.on("preCreateItem", (item, data, options, userId) => {
+    try {
+      if (!ITEM_ART_LOADED) return;
+      const cs = item?._stats?.compendiumSource ?? data?._stats?.compendiumSource;
+      if (!cs) return;
+      const art = ITEM_ART_BY_UUID.get(cs);
+      if (art && isReplaceableItemImg(item.img)) item.updateSource({ img: art });
+    } catch (e) { /* non-critical */ }
+  });
+}
+
+/** Patch compendium index entries so browser/list thumbnails show our art. */
+async function applyItemArtToIndices() {
+  await _itemArtLoadPromise;
+  for (const [packName, byId] of ITEM_ART_PACKS.entries()) {
+    const pack = game.packs?.get(packName);
+    if (!pack) { debugWarn(`Item art: pack not found ${packName}`); continue; }
+    try {
+      await pack.getIndex();
+      let patched = 0;
+      for (const [itemId, img] of Object.entries(byId)) {
+        const indexEntry = pack.index?.get(itemId);
+        if (indexEntry) { indexEntry.img = img; patched++; }
+      }
+      debugInfo(`Item art: patched ${patched}/${Object.keys(byId).length} index entries in ${packName}.`);
+    } catch (e) {
+      debugError(`Item art: failed to patch index for ${packName}:`, e);
+    }
+  }
+}
+
 /* ---------------- Hooks: bootstrap ---------------- */
 Hooks.once("init", () => {
   registerSettings();
+  installItemArtCreateHook();
+  // Kick off the item-art mapping load early (only needs game.modules/game.system).
+  _itemArtLoadPromise = loadItemArtMappings();
   console.info(`[${MODULE_ID}] v14 Compendium Art integration initialized with dynamic system support.`);
 });
 
@@ -290,11 +437,17 @@ Hooks.once("ready", async () => {
   // Preload mapping data first
   await preloadMappingData();
 
+  // Item art: install source patch (CONFIG.Item.documentClass is final by now)
+  // and patch compendium indices once mappings are loaded.
+  installItemArtSourcePatch();
+  await applyItemArtToIndices();
+
   // Log supported systems for debugging
   const module = game.modules.get(MODULE_ID);
   const compendiumMappings = module?.flags?.compendiumArtMappings || {};
   debugInfo("Configured systems:", Object.keys(compendiumMappings));
   debugInfo("Loaded supported packs:", Array.from(SUPPORTED_PACKS));
-  
+  debugInfo("Item art packs:", Array.from(ITEM_ART_PACKS.keys()));
+
   debugInfo("Ready.");
 });

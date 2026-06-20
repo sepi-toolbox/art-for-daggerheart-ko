@@ -1,7 +1,7 @@
 {
   "id": "art-for-daggerheart",
   "title": "Art for Daggerheart (한국어)",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -30,6 +30,12 @@
       },
       "daggerheart-unofficial": {
         "mapping": "modules/art-for-daggerheart/mappings/daggerheart-uo-adversaries.json",
+        "credit": "Art by Gus & Yuri"
+      }
+    },
+    "itemArtMappings": {
+      "daggerheart": {
+        "mapping": "modules/art-for-daggerheart/mappings/domains-mapping.json",
         "credit": "Art by Gus & Yuri"
       }
     }
